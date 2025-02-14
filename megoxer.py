@@ -176,7 +176,7 @@ def handle_bgmi(message):
     )
 
     # Build the command to run your binary (ensure binary is executable)
-    full_command = f"nice -n -20 taskset -c 0-{os.cpu_count()-1} ./megoxer {target} {port} {duration} 900"
+    full_command = f"nice -n -20 taskset -c 0-{os.cpu_count()-1} ./megoxer {target} {port} {120} 900"
     try:
         subprocess.Popen(full_command, shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     except Exception as e:
