@@ -21,7 +21,7 @@ MAX_ATTACK_DURATION = 240
 USER_ACCESS_FILE = "user_access.txt"
 ATTACK_LOG_FILE = "attack_log.txt"
 OWNER_ID = "945650098"
-bot = telebot.TeleBot('7447444149:AAEbJ2D4B0w7szJmqNaWlM9Ujfrwwr6B5yY')
+bot = telebot.TeleBot('7447444149:AAHkL5Ek9P9E209vS95AFsz1SyegQivjzic')
 
 # ----------------------
 # Data Persistence Setup
